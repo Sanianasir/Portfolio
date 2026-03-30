@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +10,6 @@ body {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: white;
 }
-
-/* Navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,8 +40,8 @@ nav ul li a:hover {
     color: #00f5d4;
 }
 
-/* Hero */
-.hero {
+
+.sania {
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -57,7 +55,7 @@ nav ul li a:hover {
     color: #00f5d4;
 }
 
-/* Buttons */
+
 .buttons {
     display: flex;
     gap: 15px;
@@ -82,7 +80,7 @@ button:hover {
     color: white;
 }
 
-/* Glass Effect */
+
 .glass {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -90,13 +88,11 @@ button:hover {
     margin: 20px;
     padding: 30px;
 }
-
-/* About */
 .about {
     text-align: center;
 }
 
-/* Projects */
+
 .projects {
     text-align: center;
     padding: 40px;
@@ -118,12 +114,10 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Contact */
+
 .contact {
     text-align: center;
 }
-
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
